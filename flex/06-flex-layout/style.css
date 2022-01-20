@@ -41,15 +41,14 @@ ul {
 
 .left-links {
   display: flex;
-  margin-left: -20px;
+  margin-right: 12px;
   gap: 12px;
 
 }
 
 .right-links {
   display: flex;
-  margin-right: 20px;
-  gap: 12px;
+  margin-right: 12px;
   
 
 }
@@ -64,34 +63,27 @@ ul {
   display: flex;
   border: 1px solid teal;
   justify-content: center;
-  flex-wrap: wrap;
-  margin: 50px 0px 50px 0px;
   align-items: center;
-  flex: auto;
+  flex: 1;
+  flex-direction: column;
+  
 }
 
-img {
-  display: flex;
-  order: -1;
-  justify-content: center;
-  flex-wrap: wrap;
-  border: 1px solid orange;
-  margin-left: auto;
-}
-
-.input {
-  justify-content: center;
-  flex-wrap: wrap;
-  order: 0;
-}
 
 .buttons {
   
-  order: 0
+  padding: 10px;
+  gap: 15px;
 }
 
 .footer {
   display: flex;
   justify-content: space-between;
   background-color: #eee;
+}
+
+.left-links,
+.right-links {
+  
+  gap: 12px;
 }
